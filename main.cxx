@@ -1,6 +1,6 @@
 #include "GUI.h"
 
-Windows window(Point(w, 0), w, h, "Part5");
+Windows window(Point(w, 0), w, h, "homework");
 Line line1(Point(0,h/4),Point(w,h/4),3,FL_WHITE);
 Line line2(Point(w/2,0),Point(w/2,h/4),3,FL_WHITE);
 Text text1(Point(200,50),FL_HELVETICA,25,FL_RED,"INPUT");
