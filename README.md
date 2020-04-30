@@ -6,4 +6,4 @@
 Сделана при помощи OMP и FLTK-1.3.5.
 
 
-![alt text](home/gleb/image1.png "Пример работы программы")
+![](https://github.com/MrPanch/homework_Novikov/blob/master/image1.png)
