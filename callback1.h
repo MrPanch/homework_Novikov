@@ -83,6 +83,7 @@ void callback1(Fl_Widget*, void*) {
 		outbox2.set_value(to_string(duration));
 		#pragma omp parallel 
 		{
+		#pragma omp for
 		for(int i=0;i<N;i++) {
 			for(int j=0;j<N && j!=i; j++) {
 				boundary(i);
